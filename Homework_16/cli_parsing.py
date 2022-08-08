@@ -28,7 +28,7 @@ parser.add_argument('--name', help='Name from command')
 parser.add_argument('--age', help='Age from command')
 parser.add_argument('--gender', help='Gender command')
 parser.add_argument('--birth_year', help='Birth year')
-parser.add_argument('--parser_type', help='Data type from our cli command you want to get Human info in')
+parser.add_argument('--parser_type', help='Parser type for command')
 
 args = parser.parse_args()
 arguments = {key: value for key, value in args.__dict__.items()}
